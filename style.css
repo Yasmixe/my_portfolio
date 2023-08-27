@@ -1,0 +1,247 @@
+*{
+ background-color:#0a192f;
+ font-family: 'Space Mono', monospace;
+ color: #8892b0;
+ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbaritems{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 20px 60px;
+}
+.navmenu{
+    display: flex;
+    align-items:center;
+    justify-content:space-between ;
+}
+.li{
+    list-style-type: decimal-leading-zero;
+    margin: 0 50px;
+    color:#5dedcd    ;
+}
+a{
+    text-decoration: none;
+    font-size: 1rem ;
+}
+.name{
+    color: #5dedcd;
+    padding-bottom: 20px;
+}
+.title1{
+    color:#ccd6f6;
+    font-weight: bold;
+    font-size: 4.6rem;
+    font-family: 'Inter', sans-serif;}
+.title2{
+    font-weight: bold;
+    font-size: 4.6rem;
+    font-family: 'Inter', sans-serif;
+}
+.desc{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1rem;
+    padding-top: 20px;
+    line-height: 24pt;
+}
+.hero{
+   
+    padding: 70px 270px;
+}
+span{
+    color: #5dedcd;
+}
+.email{
+    position: fixed;
+    transform: rotate(90deg);
+    right: 0;
+    bottom: 200px;    
+}
+.email::after{
+    content: "";
+    width: 100px;
+    height: 2px;   
+    background:#8892b0;
+    top: 10px;
+    position: absolute;
+    left: 250px;
+
+}
+.email-link{
+    color: #5dedcd;
+    background-color: transparent;
+    border: 1px solid #5dedcd;
+    border-radius:  4px;
+    padding: 1.25rem 1.75rem;
+    font-size: 14px;
+    font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;;
+    line-height: 1;
+    text-decoration: none;
+    transition:all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+}
+
+.bouton{
+    margin: 70px 0px;
+}
+.email-link:hover{
+    box-shadow: 5px 5px #5dedcd;
+}
+.resume-button{
+    color: #5dedcd;
+    background-color: transparent;
+    border: 1px solid #5dedcd;
+    border-radius:  4px;
+    padding: 0.9rem 1.75rem;
+    font-size: 15px;
+    line-height: 1;
+    text-decoration: none;
+}
+.resume-button:hover{
+    box-shadow: 5px 5px #5dedcd;
+}
+.about{
+    color: #5dedcd;
+}
+
+.email2{
+    position: fixed;
+    transform: rotate(-90deg);
+    left: 0;
+    bottom: 200px;    
+}
+.email2::after{
+    content: "";
+    width: 100px;
+    height: 2px;   
+    background:#8892b0;
+    top: 10px;
+    position: absolute;
+    right: 250px;
+
+}
+
+.about_section{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-top: 80px;
+    margin-left: 300px;
+    text-justify: inter-word;
+
+}
+.aboutme::after{
+    content: "";
+    width: 350px;
+    height: 1px;   
+    background:#8892b0;
+    position: absolute;
+    margin-top:20px;
+    margin-left: 30px;
+}
+.aboutme{
+    margin-bottom: 30px;
+    margin-left: 300px;
+    margin-top: 100px;
+    color:#ccd6f6;
+}
+.liste{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-top: 20px;
+}
+.text{
+    width: 65%;
+}
+.text2{
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    line-height: 20pt;
+}
+.ull {
+    margin: 0.75em 0;
+    padding: 0 1em;
+    list-style: none;
+  }
+.lii::before { 
+    content: "";
+    border-color: transparent #5dedcd;
+    border-style: solid;
+    border-width: 0.17em 0 0.17em 0.27em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0.9em;
+    position: relative;
+    
+  }
+
+.image{
+    border-radius: 7px;
+    position: relative;
+    right: 20px;
+    bottom: 20px;
+}
+.image_section{
+    border: 2px solid #5dedcd ;
+    box-sizing: content-box;
+    height: 250px;
+    width: 250px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    border-radius: 7px;
+}
+.kolech{
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.section2{
+    margin-bottom: 200px;
+}
+.section3{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-top: 80px;
+    margin-left: 300px;
+    text-justify: inter-word;
+    margin-bottom: 130px;
+}
+.text_desc{
+    display: block;
+}
+.titres{
+text-align:center;
+padding:1em 0;
+position: absolute;
+right: 200px;
+margin-top: 80px;
+}
+.titres p{
+    color: #5dedcd;
+    font-size: 0.9rem;
+    margin-left: 80px;
+}
+.titres h2{
+    color: #ccd6f6;
+}
+.rectangle{
+    border:2px solid #112240    ;
+    text-align:center;
+    padding:1em 0;
+    background-color: #112240 ;
+    position: absolute;
+    width: 500px;
+    right: 200px;
+    margin-top: 150px;
+
+}
+.rectangle p{
+    background-color: #112240    ;
+    font-family: 'Inter', sans-serif;
+    text-justify: inherit;
+}

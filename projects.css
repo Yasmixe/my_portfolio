@@ -1,0 +1,123 @@
+.grid-container{
+    display: inline-grid;
+     grid-template-columns: auto auto auto;
+    
+}
+
+.projects{
+    text-align: center;
+    margin-top: 300px;
+    margin-bottom: 300px;
+    margin-right: 100px;
+    margin-left: 150px;
+}
+.grid-item{
+  background-color: #112240;
+  border: 1px solid #112240;
+  font-size: 30px;
+  border-radius: 5px;
+  height: 300px; 
+  width: 330px;  
+  margin: 10px 10px;
+  box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03);
+  transition: all .5s ease; /* back to normal */
+}
+.feather {
+    color: #5dedcd;
+    width: 30px;
+    height: 30px;
+    background-color: #112240;
+}
+.toping{
+    background-color: #112240;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20px;
+}
+.textt{
+    position: absolute;
+    color: aliceblue;
+    padding:1em 0;
+    background-color: #112240;
+    margin-left: 20px;
+    text-align: start; 
+    inline-size: 300px;
+    overflow-wrap: break-word; 
+    
+}
+.textt h3{
+    background-color: #112240;
+    color: #ccd6f6;
+    font-size: 1.2rem;
+    line-height: 1.1;
+    font-family: 'Inter', sans-serif;
+
+
+}
+.textt h3:hover{
+    color: #5dedcd;
+}
+.textt p{
+    background-color: #112240;
+    font-size: 0.9rem;
+    margin-top: 20px;
+    font-family: 'Inter', sans-serif;
+}
+.projects h2{
+    color: #ccd6f6;
+    margin-bottom: 50px;
+}
+.tools ul{
+    text-decoration: none;
+    list-style-type: none;
+    position: absolute;
+    background-color: #112240;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    margin-top: 150px;
+    margin-left: 15px;
+
+}
+.tools ul li{
+    padding: 5px 7px;
+    background-color: #112240;
+
+}
+.grid-item:hover{
+    transform: translate3D(0,-1px,0) scale(1.03);
+    box-shadow: 8px 28px 50px rgba(39,44,49,.07), 1px 6px 12px rgba(39,44,49,.04);
+    transition: all .4s ease; /* zoom in */
+}
+
+.next{
+    margin-top: 250px;
+   
+    align-items: center;
+    text-align: center;
+}
+.next p{
+    font-size: 1rem;
+
+}
+.next h1{
+    font-size: 3rem;
+    color: #ccd6f6;
+    font-family: 'Inter', sans-serif;
+    margin: 10px 0;
+}
+.op{
+    font-family: 'Inter', sans-serif;
+    line-height: 24pt;
+
+}
+.Yas{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.Yas p{
+    font-size: 0.9rem;
+    font-family: 'Inter', sans-serif;
+    margin-left: 45px;
+    
+}
